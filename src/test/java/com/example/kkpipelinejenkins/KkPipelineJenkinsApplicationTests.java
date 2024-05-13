@@ -28,7 +28,7 @@ class KkPipelineJenkinsApplicationTests {
 		this.mockMvc.perform(MockMvcRequestBuilders.get("/"))
 				.andDo(print())
 				.andExpect(status().isOk())
-				.andExpect(content().string("Hello NIE Jenkins"));
+				.andExpect(content().string("Hello  Jenkins"));
 	}
 
 
